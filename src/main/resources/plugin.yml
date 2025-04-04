@@ -1,0 +1,15 @@
+name: SYTMC_ComplaintToll
+version: 1.0
+main: com.sytmc.complaint.ComplaintToll
+api-version: 1.21
+commands:
+  complaint:
+    description: 提交玩家投诉
+    usage: /complaint <玩家> <原因>
+permissions:
+  complaint.admin:
+    description: 查看玩家投诉
+    default: op
+  complaint.use:
+    description: 使用投诉功能
+    default: true
